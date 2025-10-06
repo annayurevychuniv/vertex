@@ -1,4 +1,4 @@
-print("Hello, world!")
+print("Hello!")
 
 user_input = input("Enter a number: ")
 print("Result:", int(user_input) * 2)
