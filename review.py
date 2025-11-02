@@ -11,8 +11,6 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPOSITORY = os.getenv("GITHUB_REPOSITORY")
 GITHUB_SHA = os.getenv("GITHUB_SHA") or os.getenv("COMMIT_SHA")
 
-PR_NUMBER = os.getenv("PR_NUMBER")
-
 GITHUB_API = "https://api.github.com"
 
 def get_owner_repo():
